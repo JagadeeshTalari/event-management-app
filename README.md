@@ -1,1 +1,1 @@
-# Socia-Circuit App
+# Social-Circuit App
