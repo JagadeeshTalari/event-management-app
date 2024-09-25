@@ -1,4 +1,6 @@
+import ContactUs from "@/components/home/ContactUs";
 import Intro from "@/components/home/Intro";
+import SignUp from "@/components/home/SignUp";
 import { Container, Stack } from "@mui/material";
 
 export default function Home() {
@@ -23,6 +25,8 @@ export default function Home() {
           }}
         >
           <Intro />
+          <SignUp />
+          <ContactUs />
         </Stack>
       </Container>
     </>
