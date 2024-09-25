@@ -1,3 +1,4 @@
+import Intro from "@/components/home/Intro";
 import { Container, Stack } from "@mui/material";
 
 export default function Home() {
@@ -8,8 +9,7 @@ export default function Home() {
         disableGutters
         maxWidth={false}
         sx={{
-          bgcolor: "#e5e8eb",
-          px: 13,
+          bgcolor: "#F6F6F6",
           py: 8,
         }}
       >
@@ -21,7 +21,9 @@ export default function Home() {
             width: "100%",
             height: "100%",
           }}
-        ></Stack>
+        >
+          <Intro />
+        </Stack>
       </Container>
     </>
   );
