@@ -1,5 +1,7 @@
+import About from "@/components/home/About";
 import ContactUs from "@/components/home/ContactUs";
 import Intro from "@/components/home/Intro";
+import Quote from "@/components/home/Quote";
 import SignUp from "@/components/home/SignUp";
 import { Container, Stack } from "@mui/material";
 
@@ -25,6 +27,8 @@ export default function Home() {
           }}
         >
           <Intro />
+          <About />
+          <Quote />
           <SignUp />
           <ContactUs />
         </Stack>
