@@ -168,12 +168,12 @@ const ContactUs = () => {
             sx={{
               mt: 2,
               borderRadius: 1.5,
-              bgcolor: "#1f1d0d",
+              bgcolor: "#0e0d06",
               color: "#fff",
               width: "fit-content",
               px: 3,
               ":hover": {
-                bgcolor: "#000",
+                bgcolor: "#0e0d06",
                 color: "#fff",
                 fontWeight: "600",
               },

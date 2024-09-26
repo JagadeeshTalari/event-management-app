@@ -73,8 +73,8 @@ const UserType = ({ type, desc, path, btnText, isLast }) => {
                 // width: "30%",
                 width: "fit-content",
                 ":hover": {
-                  bgcolor: "#65ffb5",
-                  borderColor: "#65ffb5",
+                  bgcolor: "#F7FF62",
+                  borderColor: "#F7FF62",
                   color: "#151d23",
                 },
               }}

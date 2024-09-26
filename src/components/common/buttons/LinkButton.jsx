@@ -9,8 +9,8 @@ const LinkButton = ({ path, buttonText }) => {
         variant="outlined"
         sx={{
           color: "#fff",
-          borderColor: "#000",
-          bgcolor: "#000",
+          borderColor: "#0e0d06",
+          bgcolor: "#0e0d06",
           borderRadius: 1.5,
           fontWeight: 500,
           py: 1,
@@ -20,8 +20,8 @@ const LinkButton = ({ path, buttonText }) => {
           },
           ":hover": {
             bgcolor: "#fff",
-            borderColor: "#000",
-            color: "#000",
+            borderColor: "#0e0d06",
+            color: "#0e0d06",
           },
         }}
       >

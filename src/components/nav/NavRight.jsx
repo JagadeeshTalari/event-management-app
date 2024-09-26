@@ -14,11 +14,11 @@ const NavRight = () => {
             }, // rwd not working
             width: "max-content",
             borderRadius: 1.5,
-            color: "#000",
-            borderColor: "#000",
+            color: "#0e0d06",
+            borderColor: "#0e0d06",
             ":hover": {
-              bgcolor: "#000",
-              borderColor: "#000",
+              bgcolor: "#0e0d06",
+              borderColor: "#0e0d06",
               color: "#fff",
             },
             display: {
@@ -40,12 +40,12 @@ const NavRight = () => {
             }, // rwd not working
             width: "max-content",
             borderRadius: 1.5,
-            bgcolor: "#000",
-            borderColor: "#000",
+            bgcolor: "#0e0d06",
+            borderColor: "#0e0d06",
             color: "#fff",
             ":hover": {
-              color: "#000",
-              borderColor: "#000",
+              color: "#0e0d06",
+              borderColor: "#0e0d06",
               bgcolor: "#fff",
             },
             display: {

@@ -8,7 +8,7 @@ export default function Footer() {
         p={5}
         px={6}
         sx={{
-          bgcolor: "#1f1d0d",
+          bgcolor: "#0e0d06",
         }}
       >
         <Stack
