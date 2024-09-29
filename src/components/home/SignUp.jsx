@@ -6,7 +6,7 @@ const SignUp = () => {
     <Box
       component="section"
       sx={{
-        bgcolor: "#F7FF62",
+        bgcolor: "#0e0d06",
         width: "100%",
         display: "flex",
         flexDirection: "column",
@@ -24,7 +24,7 @@ const SignUp = () => {
             lg: "60px",
           },
         }}
-        color="black"
+        color="white"
       >
         Ready to get started?
       </Typography>
@@ -32,16 +32,15 @@ const SignUp = () => {
         <Button
           variant="outlined"
           sx={{
-            color: "#fff",
-            borderColor: "#000",
-            bgcolor: "#000",
-            borderRadius: 1.5,
+            color: "#F7FF62",
+            borderColor: "#F7FF62",
+            borderRadius: 0,
+            py: 1.3,
             width: "fit-content",
-            py: 1,
             ":hover": {
-              bgcolor: "#000",
-              borderColor: "#000",
-              color: "#fff",
+              bgcolor: "#F7FF62",
+              borderColor: "#F7FF62",
+              color: "#151d23",
             },
           }}
         >
